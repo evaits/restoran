@@ -3,7 +3,7 @@ body {
 }
 
 
-/*Header*/
+/*Container*/
 .container {
     margin: 0 165px;
 }
@@ -94,5 +94,70 @@ body {
 }
 
 #btn-header:hover {
+    background-color: rgb(180, 6, 6);
+}
+
+/*Header-down*/
+.header-down {
+    position: relative;
+}
+
+.header-title {
+    font-family: 'Tinos', serif;
+    color: rgba(214, 126, 53, 1);
+    font-size: 50px;
+    line-height: 57px;
+    font-weight: 400;
+    text-align: center;
+    position: absolute;
+    left: 0;
+    margin-top: 194px;
+    margin-bottom: 21px;
+}
+
+#header-text-1 {
+    font-size: 70px;
+    line-height: 91px;
+}
+
+#header-text-2 {
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: 400;
+}
+
+#header-text-2::after {
+    position: absolute;
+    content: "";
+    height: 2px;
+    width: 61px;
+    background-color: white;
+    top: 159px;
+    left: 73px;
+}
+
+#header-text-2::before {
+    position: absolute;
+    content: "";
+    height: 2px;
+    width: 61px;
+    background-color: white;
+    top: 159px;
+    left: 365px;
+}
+
+#btn-header-down {
+    font-family: 'Open Sans', sans-serif;
+    padding: 15px 18px;
+    font-weight: 700;
+    line-height: 19px;
+    font-size: 14px;
+    background-color: rgba(255, 116, 0, 1);
+    transition: background-color 0.3s linear;
+}
+
+#btn-header-down:hover {
     background-color: rgb(180, 6, 6);
 }
